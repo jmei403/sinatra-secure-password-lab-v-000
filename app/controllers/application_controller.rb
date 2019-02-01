@@ -31,6 +31,7 @@ class ApplicationController < Sinatra::Base
       erb :account
     else
       erb :failure
+    end
   end
 
 
